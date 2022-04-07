@@ -7,15 +7,19 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		7D9C3E4B27FF484A00BC660B /* Alamofire in Frameworks */ = {isa = PBXBuildFile; productRef = 7D9C3E4A27FF484A00BC660B /* Alamofire */; };
 		7DC9CA1427FB5B340008CC10 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DC9CA1327FB5B340008CC10 /* AppDelegate.swift */; };
 		7DC9CA1627FB5B340008CC10 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DC9CA1527FB5B340008CC10 /* SceneDelegate.swift */; };
 		7DC9CA1827FB5B340008CC10 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DC9CA1727FB5B340008CC10 /* ViewController.swift */; };
 		7DC9CA1B27FB5B340008CC10 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7DC9CA1927FB5B340008CC10 /* Main.storyboard */; };
 		7DC9CA1D27FB5B380008CC10 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7DC9CA1C27FB5B380008CC10 /* Assets.xcassets */; };
 		7DC9CA2027FB5B380008CC10 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7DC9CA1E27FB5B380008CC10 /* LaunchScreen.storyboard */; };
+		8765069E0372CEDC71DC8513 /* Pods_LiveCoding.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D62E5F26AB0A5C849892A2CF /* Pods_LiveCoding.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		3168D57D2EF9FEEB140D6032 /* Pods-LiveCoding.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LiveCoding.release.xcconfig"; path = "Target Support Files/Pods-LiveCoding/Pods-LiveCoding.release.xcconfig"; sourceTree = "<group>"; };
+		6171C07569F2F42DBD85C780 /* Pods-LiveCoding.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LiveCoding.debug.xcconfig"; path = "Target Support Files/Pods-LiveCoding/Pods-LiveCoding.debug.xcconfig"; sourceTree = "<group>"; };
 		7DC9CA1027FB5B340008CC10 /* LiveCoding.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LiveCoding.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		7DC9CA1327FB5B340008CC10 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		7DC9CA1527FB5B340008CC10 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -24,6 +28,7 @@
 		7DC9CA1C27FB5B380008CC10 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		7DC9CA1F27FB5B380008CC10 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		7DC9CA2127FB5B380008CC10 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D62E5F26AB0A5C849892A2CF /* Pods_LiveCoding.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_LiveCoding.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,17 +36,30 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8765069E0372CEDC71DC8513 /* Pods_LiveCoding.framework in Frameworks */,
+				7D9C3E4B27FF484A00BC660B /* Alamofire in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		0F1E1793E685955F5254E6E5 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				6171C07569F2F42DBD85C780 /* Pods-LiveCoding.debug.xcconfig */,
+				3168D57D2EF9FEEB140D6032 /* Pods-LiveCoding.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 		7DC9CA0727FB5B340008CC10 = {
 			isa = PBXGroup;
 			children = (
 				7DC9CA1227FB5B340008CC10 /* LiveCoding */,
 				7DC9CA1127FB5B340008CC10 /* Products */,
+				0F1E1793E685955F5254E6E5 /* Pods */,
+				C0BE5FA724723975C32AEF64 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -67,6 +85,14 @@
 			path = LiveCoding;
 			sourceTree = "<group>";
 		};
+		C0BE5FA724723975C32AEF64 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D62E5F26AB0A5C849892A2CF /* Pods_LiveCoding.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -74,15 +100,20 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 7DC9CA2427FB5B380008CC10 /* Build configuration list for PBXNativeTarget "LiveCoding" */;
 			buildPhases = (
+				8339E8667FB05F93DDEB1DF7 /* [CP] Check Pods Manifest.lock */,
 				7DC9CA0C27FB5B340008CC10 /* Sources */,
 				7DC9CA0D27FB5B340008CC10 /* Frameworks */,
 				7DC9CA0E27FB5B340008CC10 /* Resources */,
+				D5828E1AD5833C6CCD3FB471 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
 			name = LiveCoding;
+			packageProductDependencies = (
+				7D9C3E4A27FF484A00BC660B /* Alamofire */,
+			);
 			productName = LiveCoding;
 			productReference = 7DC9CA1027FB5B340008CC10 /* LiveCoding.app */;
 			productType = "com.apple.product-type.application";
@@ -111,6 +142,9 @@
 				Base,
 			);
 			mainGroup = 7DC9CA0727FB5B340008CC10;
+			packageReferences = (
+				7D9C3E4927FF484A00BC660B /* XCRemoteSwiftPackageReference "Alamofire" */,
+			);
 			productRefGroup = 7DC9CA1127FB5B340008CC10 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -132,6 +166,48 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		8339E8667FB05F93DDEB1DF7 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-LiveCoding-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D5828E1AD5833C6CCD3FB471 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-LiveCoding/Pods-LiveCoding-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-LiveCoding/Pods-LiveCoding-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-LiveCoding/Pods-LiveCoding-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		7DC9CA0C27FB5B340008CC10 /* Sources */ = {
@@ -282,6 +358,7 @@
 		};
 		7DC9CA2527FB5B380008CC10 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6171C07569F2F42DBD85C780 /* Pods-LiveCoding.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -304,12 +381,13 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
 		7DC9CA2627FB5B380008CC10 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3168D57D2EF9FEEB140D6032 /* Pods-LiveCoding.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -332,7 +410,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
@@ -358,6 +436,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		7D9C3E4927FF484A00BC660B /* XCRemoteSwiftPackageReference "Alamofire" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/Alamofire/Alamofire";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 5.0.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		7D9C3E4A27FF484A00BC660B /* Alamofire */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 7D9C3E4927FF484A00BC660B /* XCRemoteSwiftPackageReference "Alamofire" */;
+			productName = Alamofire;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 7DC9CA0827FB5B340008CC10 /* Project object */;
 }
