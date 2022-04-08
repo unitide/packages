@@ -8,6 +8,11 @@
 
 /* Begin PBXBuildFile section */
 		7D9C3E4B27FF484A00BC660B /* Alamofire in Frameworks */ = {isa = PBXBuildFile; productRef = 7D9C3E4A27FF484A00BC660B /* Alamofire */; };
+		7D9C3E512800683000BC660B /* masaaki-komori-NYFaNoiPf7A-unsplash.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 7D9C3E4C2800683000BC660B /* masaaki-komori-NYFaNoiPf7A-unsplash.jpg */; };
+		7D9C3E522800683000BC660B /* charlie-robert-tYfah0NZA7s-unsplash.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 7D9C3E4D2800683000BC660B /* charlie-robert-tYfah0NZA7s-unsplash.jpg */; };
+		7D9C3E532800683000BC660B /* tijana-drndarski-Bb8_yBkb_6E-unsplash.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 7D9C3E4E2800683000BC660B /* tijana-drndarski-Bb8_yBkb_6E-unsplash.jpg */; };
+		7D9C3E542800683000BC660B /* eugene-golovesov-pph10lc5QK0-unsplash.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 7D9C3E4F2800683000BC660B /* eugene-golovesov-pph10lc5QK0-unsplash.jpg */; };
+		7D9C3E552800683000BC660B /* leandra-rieger-NV8bD8POijU-unsplash.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 7D9C3E502800683000BC660B /* leandra-rieger-NV8bD8POijU-unsplash.jpg */; };
 		7DC9CA1427FB5B340008CC10 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DC9CA1327FB5B340008CC10 /* AppDelegate.swift */; };
 		7DC9CA1627FB5B340008CC10 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DC9CA1527FB5B340008CC10 /* SceneDelegate.swift */; };
 		7DC9CA1827FB5B340008CC10 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DC9CA1727FB5B340008CC10 /* ViewController.swift */; };
@@ -20,6 +25,11 @@
 /* Begin PBXFileReference section */
 		3168D57D2EF9FEEB140D6032 /* Pods-LiveCoding.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LiveCoding.release.xcconfig"; path = "Target Support Files/Pods-LiveCoding/Pods-LiveCoding.release.xcconfig"; sourceTree = "<group>"; };
 		6171C07569F2F42DBD85C780 /* Pods-LiveCoding.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LiveCoding.debug.xcconfig"; path = "Target Support Files/Pods-LiveCoding/Pods-LiveCoding.debug.xcconfig"; sourceTree = "<group>"; };
+		7D9C3E4C2800683000BC660B /* masaaki-komori-NYFaNoiPf7A-unsplash.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "masaaki-komori-NYFaNoiPf7A-unsplash.jpg"; sourceTree = "<group>"; };
+		7D9C3E4D2800683000BC660B /* charlie-robert-tYfah0NZA7s-unsplash.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "charlie-robert-tYfah0NZA7s-unsplash.jpg"; sourceTree = "<group>"; };
+		7D9C3E4E2800683000BC660B /* tijana-drndarski-Bb8_yBkb_6E-unsplash.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "tijana-drndarski-Bb8_yBkb_6E-unsplash.jpg"; sourceTree = "<group>"; };
+		7D9C3E4F2800683000BC660B /* eugene-golovesov-pph10lc5QK0-unsplash.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "eugene-golovesov-pph10lc5QK0-unsplash.jpg"; sourceTree = "<group>"; };
+		7D9C3E502800683000BC660B /* leandra-rieger-NV8bD8POijU-unsplash.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "leandra-rieger-NV8bD8POijU-unsplash.jpg"; sourceTree = "<group>"; };
 		7DC9CA1027FB5B340008CC10 /* LiveCoding.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LiveCoding.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		7DC9CA1327FB5B340008CC10 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		7DC9CA1527FB5B340008CC10 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -53,6 +63,18 @@
 			path = Pods;
 			sourceTree = "<group>";
 		};
+		7D9C3E562800685800BC660B /* images */ = {
+			isa = PBXGroup;
+			children = (
+				7D9C3E4E2800683000BC660B /* tijana-drndarski-Bb8_yBkb_6E-unsplash.jpg */,
+				7D9C3E4D2800683000BC660B /* charlie-robert-tYfah0NZA7s-unsplash.jpg */,
+				7D9C3E4F2800683000BC660B /* eugene-golovesov-pph10lc5QK0-unsplash.jpg */,
+				7D9C3E4C2800683000BC660B /* masaaki-komori-NYFaNoiPf7A-unsplash.jpg */,
+				7D9C3E502800683000BC660B /* leandra-rieger-NV8bD8POijU-unsplash.jpg */,
+			);
+			path = images;
+			sourceTree = "<group>";
+		};
 		7DC9CA0727FB5B340008CC10 = {
 			isa = PBXGroup;
 			children = (
@@ -79,6 +101,7 @@
 				7DC9CA1727FB5B340008CC10 /* ViewController.swift */,
 				7DC9CA1927FB5B340008CC10 /* Main.storyboard */,
 				7DC9CA1C27FB5B380008CC10 /* Assets.xcassets */,
+				7D9C3E562800685800BC660B /* images */,
 				7DC9CA1E27FB5B380008CC10 /* LaunchScreen.storyboard */,
 				7DC9CA2127FB5B380008CC10 /* Info.plist */,
 			);
@@ -160,8 +183,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				7DC9CA2027FB5B380008CC10 /* LaunchScreen.storyboard in Resources */,
+				7D9C3E552800683000BC660B /* leandra-rieger-NV8bD8POijU-unsplash.jpg in Resources */,
+				7D9C3E542800683000BC660B /* eugene-golovesov-pph10lc5QK0-unsplash.jpg in Resources */,
+				7D9C3E512800683000BC660B /* masaaki-komori-NYFaNoiPf7A-unsplash.jpg in Resources */,
 				7DC9CA1D27FB5B380008CC10 /* Assets.xcassets in Resources */,
+				7D9C3E522800683000BC660B /* charlie-robert-tYfah0NZA7s-unsplash.jpg in Resources */,
 				7DC9CA1B27FB5B340008CC10 /* Main.storyboard in Resources */,
+				7D9C3E532800683000BC660B /* tijana-drndarski-Bb8_yBkb_6E-unsplash.jpg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
